@@ -7,3 +7,9 @@
     {{ goal }}
   </li>
 </ul>
+
+<ul>
+  <li *ngFor="let MainOption of MainOptions" (click)="Clicked(MainOption)">
+    {{ MainOption }}
+  </li>
+</ul>
